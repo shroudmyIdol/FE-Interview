@@ -1,5 +1,5 @@
 var promise = new Promise((resolve, reject)=> {
-    if (操作成功) {
+    if ('操作成功') {
         resolve(value);
     } else {
         reject(value1);
