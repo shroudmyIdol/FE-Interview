@@ -39,7 +39,7 @@ function quickSort(nums, left, right) {
   // 哨兵划分
   const pivot = partition(nums, left, right);
   // 对两个子数组中较短的那个执行快排
-  if (pivot - left < right - pivot) {6
+  if (pivot - left < right - pivot) {
     quickSort(nums, left, pivot - 1);
     left = pivot + 1; // 剩余未排序区间为 [pivot + 1, right]
   } else {
